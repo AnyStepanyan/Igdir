@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex mt-neg-36 justify-center items-center bg-welcome-section bg-no-repeat bg-cover bg-top h-[1150px] max-lg:h-[880px] max-md:items-end">
+    class="flex mt-neg-36 justify-center items-center bg-welcome bg-no-repeat bg-cover bg-top h-[1150px] max-lg:h-[880px] max-md:items-end">
     <div class="flex flex-col justify-around items-center h-[640px] w-full">
       <div class="flex flex-col items-center justify-center w-[572px] h-[279px] border-[1px] border-tan backdrop-blur-sm 
         max-lg:w-[435px] max-lg:h-[212px] max-md:w-[299px] max-md:h-[187px]">

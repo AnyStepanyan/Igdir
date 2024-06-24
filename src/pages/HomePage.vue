@@ -1,10 +1,12 @@
 <template>
-  <div class="overflow-hidden">
+  <div class="">
       <WelcomeSection />
     <HallsSection />
     <MenuSection />
     <MenuCarousel />
     <ReservationSection />
+    <DelightsSection />
+    <StorySection />
   </div>
  
   </template>
@@ -15,5 +17,7 @@
   import MenuSection from '../components/MenuSection';
   import MenuCarousel from '../components/MenuCarousel';
   import ReservationSection from '../components/ReservationSection';
+  import DelightsSection from '../components/DelightsSection';
+  import StorySection from '../components/StorySection';
   </script>
   

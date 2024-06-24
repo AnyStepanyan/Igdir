@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:hidden w-screen">
+    <div class="lg:hidden w-full">
       <Carousel :breakpoints="breakpoints" :wrap-around="true">
         <Slide class="w-[306px] h-[387px]" v-for="(slide, index) in halls" :key="index">
           <HallCard :path="slide.path" :image="slide.image" :name="slide.name" />

@@ -1,8 +1,8 @@
 <template>
   <header class="flex bg-black bg-opacity-10 font-sans min-h-24 tracking-wide fixed z-50 w-full backdrop-blur-2xl">
     <div class="flex flex-wrap justify-around py-3 gap-4 w-full items-center max-lg:justify-between">
-      <router-link to="/" class="ml-6">
-        <img class="w-64 h-auto  max-xl:w-40 max-lg:w-64" src="../assets/logo/logo.png" alt="logo" />
+      <router-link to="/" class="ml-6 max-md:ml-2">
+        <img class="w-64 h-auto  max-xl:w-40 max-lg:w-60" src="../assets/logo/logo.png" alt="logo" />
       </router-link>
       <div>
         <button
@@ -57,7 +57,7 @@
                 HALLS
               <img class="ml-1 inline-block" src="../assets/icons/downArrowhead.svg" alt="down-arrowhead" />
               <ul
-                class="absolute mt-9 invisible opacity-0 transition-all duration-700 rounded-xl shadow-lg bg-black space-y-3 -left-1 min-w-56 z-50 overflow-hidden px-4 py-2 border border-tan group-hover/item:visible group-hover/item:opacity-100"
+                class="absolute mt-9 invisible opacity-0 bg-opacity-70 transition-all duration-700 rounded-xl shadow-lg bg-black space-y-3 -left-1 min-w-56 z-50 overflow-hidden px-4 py-2 border border-tan group-hover/item:visible group-hover/item:opacity-100"
               >
                 <li class="py-1">
                   <router-link

@@ -1,9 +1,8 @@
 <template>
-    <div>
-      Aria
-    </div>
-  </template>
+  <HallEntrySection background="bg-aria-hall" :title="require('@/assets/ariaHallPage/textImages/ariaHallText.png')" />
+</template>
   
-  <script setup>
-  </script>
+<script setup>
+import HallEntrySection from '../components/HallEntrySection';
+</script>
   

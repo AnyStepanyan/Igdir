@@ -13,9 +13,9 @@
 </template>
 
 <script setup>
-import 'vue3-carousel/dist/carousel.css'; // Import carousel CSS
-import { Carousel, Navigation, Slide } from 'vue3-carousel'; // Import carousel components
-import { menuSlider } from '@/utils/menuSlider'; // Import menuSlider utility function
+import 'vue3-carousel/dist/carousel.css';
+import { Carousel, Navigation, Slide } from 'vue3-carousel';
+import { menuSlider } from '@/utils/menuSlider';
 
 const breakpoints = {
   // Breakpoint for 700px and up

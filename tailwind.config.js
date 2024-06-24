@@ -19,12 +19,17 @@ module.exports = {
         'nav-black':'#101318',
       },
       backgroundImage: {
-        'welcome-section': "url('@/assets/backgroundImages/welcomeSection.png')",
-        'halls-section': "url('@/assets/backgroundImages/hallsSection.png')",
-        'menu-section': "url('@/assets/backgroundImages/menuSection.png')",
-        'footer-section': "url('@/assets/backgroundImages/footer.png')",
-      }
+        welcome: "url('@/assets/backgroundImages/welcomeSection.png')",
+        halls: "url('@/assets/backgroundImages/hallsSection.png')",
+        menu: "url('@/assets/backgroundImages/menuSection.png')",
+        delights: "url('@/assets/backgroundImages/delightsSection.png')",
+        footer: "url('@/assets/backgroundImages/footer.png')",
+        'footer-mobile': "url('@/assets/backgroundImages/mobileFooter.png')",
+        'aria-hall': "url('@/assets/ariaHallPage/backgroundImages/ariaHall.png')",
+        'private-hall': "url('@/assets/backgroundImages/privateHall.jpg')",
+        'summer-hall': "url('@/assets/backgroundImages/summerHall.jpg')",
+      },
     },
   },
   plugins: [],
-}
+};
