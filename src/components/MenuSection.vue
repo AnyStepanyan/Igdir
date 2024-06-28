@@ -1,5 +1,5 @@
 <template>
-  <div class="flex shrink items-center bg-menu bg-no-repeat bg-cover bg-center h-[1000px] 
+  <div class="flex shrink items-center bg-menu bg-no-repeat bg-cover bg-center h-[820px] 
   max-lg:h-[480px] max-md:h-[320px] max-md:justify-center max-md:bg-bottom">
     <div class="w-1/12 max-md:hidden backdrop-blur-sm"></div>
     <div class="flex flex-col w-4/12 gap-5 text-white max-lg:w-6/12 max-md:text-center max-md:w-11/12">

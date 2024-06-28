@@ -11,7 +11,8 @@
         max-lg:text-sm max-xl:mx-2 max-lg:gap-0 max-md:flex-col max-md:gap-y-7"
       >
         <div class="shrink basis-1/4 max-lg:basis-1/6">
-          <img class="max-md:w-44" src="../assets/logo/logo.png" alt="logo" />
+          <img class="max-md:w-44 max-md:hidden" src="../assets/logo/logo.svg" alt="logo" />
+          <img class="w-44 h-auto md:hidden" src="../assets/logo/logoMobile.svg" alt="logo" />
         </div>
 
         <div class="flex shrink gap-36 basis-1/4 max-2xl:gap-20 max-lg:gap-9 max-md:gap-5">

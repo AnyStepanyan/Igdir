@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center bg-black bg-no-repeat bg-cover bg-center h-[1000px] max-lg:h-[560px] max-md:h-[437px]">
+  <div class="flex justify-center items-center bg-story bg-no-repeat bg-cover bg-center h-[700px] max-lg:h-[460px] max-md:h-[337px]">
     <div class="flex flex-col justify-between items-center gap-8 max-lg:gap-6 max-md:gap-3">
       <div class="flex flex-col justify-between text-white text-6xl max-lg:text-3xl max-md:text-xl">
         <h2>Our Story</h2>

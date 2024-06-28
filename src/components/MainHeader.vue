@@ -2,12 +2,13 @@
   <header class="flex bg-black bg-opacity-10 font-sans min-h-24 tracking-wide fixed z-50 w-full backdrop-blur-2xl">
     <div class="flex flex-wrap justify-around py-3 gap-4 w-full items-center max-lg:justify-between">
       <router-link to="/" class="ml-6 max-md:ml-2">
-        <img class="w-64 h-auto  max-xl:w-40 max-lg:w-60" src="../assets/logo/logo.png" alt="logo" />
+        <img class="w-64 h-auto max-md:hidden max-xl:w-40 max-lg:w-60" src="../assets/logo/logo.svg" alt="logo" />
+        <img class="w-36 h-auto md:hidden" src="../assets/logo/logoMobile.svg" alt="logo" />
       </router-link>
       <div>
         <button
           v-if="showMenu"
-          class="lg:hidden fixed top-2 right-4 z-50 p-3"
+          class="lg:hidden fixed top-7 right-2 z-50 p-3"
           @click="showMenu = !showMenu"
         >
         <img class="w-4" src="../assets/icons/close.svg"  alt="close-icon" /> 
@@ -112,7 +113,7 @@
         <div class="relative z-50 ml-12">
           <a href="tel:+37496645534" class="flex mr-8">
             <img src="../assets/icons/phone.svg" alt="phone-icon" />
-            <p class="text-white pl-4">+374-96-64-55-34</p>
+            <p class="text-white pl-4">+374 (96) 64 55 34</p>
             </a>
           </div>
       </div>

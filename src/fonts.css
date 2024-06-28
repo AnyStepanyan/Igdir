@@ -1,0 +1,16 @@
+body {
+    @apply font-primary;
+  };
+  
+  @font-face {
+    font-family: 'Ogg-Bold';
+    src: url('@/assets/fonts/Ogg-Bold.ttf') format('truetype');
+    font-weight: 500;
+  };
+  
+  @font-face {
+    font-family: 'Ogg-Medium';
+    src: url('@/assets/fonts/Ogg-Medium.ttf') format('truetype');
+    font-weight: 500;
+  };
+  
