@@ -1,8 +1,8 @@
 <template>
   <div class="relative bg-black-background pt-4 h-[290px]">
     <Carousel v-model="slideIndex" :breakpoints="breakpoints" :wrap-around="true">
-      <Slide class="w-[329px] h-[261px]" v-for="(slide, index) in menuSlider" :key="index">
-        <img class="sm:grayscale sm:hover:grayscale-0 border-[1px] border-tan md:hover:scale-105 transition ease-in duration-500 max-sm:px-2" :src="slide.image" alt="menu" />
+      <Slide class="w-[329px] h-[261px] max-sm:px-2" v-for="(slide, index) in menuSlider" :key="index">
+        <img class="sm:grayscale sm:hover:grayscale-0 border-[1px] border-tan md:hover:scale-105 transition ease-in duration-500" :src="slide.image" alt="menu" />
       </Slide>
     </Carousel>
         <div @click="goToPreviousSlide">
